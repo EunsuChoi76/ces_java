@@ -12,8 +12,8 @@ public class Bruteforce_2798_Blackjack {
 	public static void main(String[] args) throws FileNotFoundException  {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		//System.setIn(new FileInputStream("D:\\JavaWorkspace\\input\\Bruteforce_2798_Blackjack.txt"));
-		//Scanner sc = new Scanner(System.in);
+//		System.setIn(new FileInputStream("D:\\JavaWorkspace\\input\\Bruteforce_2798_Blackjack.txt"));
+//		Scanner sc = new Scanner(System.in);
 		
 		int N =  sc.nextInt();
 		int M = sc.nextInt();
