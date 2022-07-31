@@ -26,7 +26,7 @@ public class Backtracking_15649_NandM1 {
 		
 
 		dfs(0);
-		
+				
 	}
 	
 	
