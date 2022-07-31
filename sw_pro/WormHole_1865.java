@@ -22,6 +22,7 @@ public class WormHole_1865 {
 		// �ѱ��׽�Ʈ
 		// Apply TEST
 		// Origin Master
+		// Sub Update
 		for(int i=0; i<TC; i++) {
 			st = new StringTokenizer(br.readLine());
 		}
