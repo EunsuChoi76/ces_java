@@ -17,7 +17,7 @@ public class TopologicaSort_2252 {
 
 	public static void main(String[] args) throws IOException{
 		
-		System.setIn(new FileInputStream("D:\\git\\JavaWorkspace\\input\\TopologicalSort_2252.txt"));
+		System.setIn(new FileInputStream("D:\\git\\JavaWorkspace\\ces\\src\\ces_java\\sw_pro\\input\\TopologicalSort_2252.txt"));
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
