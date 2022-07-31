@@ -19,7 +19,8 @@ public class WormHole_1865 {
 		
 		int TC = Integer.parseInt(st.nextToken());
 		
-		// ÇÑ±ÛÅ×½ºÆ®	
+		// ï¿½Ñ±ï¿½ï¿½×½ï¿½Æ®
+		// Apply TEST
 		for(int i=0; i<TC; i++) {
 			st = new StringTokenizer(br.readLine());
 		}
