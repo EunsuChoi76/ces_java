@@ -30,7 +30,7 @@ public class WormHole_1865 {
 		for(int i=0; i<TC; i++) {
 			st = new StringTokenizer(br.readLine());
 			
-			// N: 정점 M:간선 W:count of wormhole
+			// N:정점 M:간선 W:wormhole 수
 			N = Integer.parseInt(st.nextToken());
 			M = Integer.parseInt(st.nextToken());
 			W = Integer.parseInt(st.nextToken());
