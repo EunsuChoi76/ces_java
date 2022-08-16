@@ -62,7 +62,7 @@ public class MST_Network_1922 {
 		for (int i = 0; i < edgeList.size(); i++) {
 			Edge edge = edgeList.get(i);
 
-			// »çÀÌÅ¬ÀÌ ¹ß»ýÇÏ´Â °£¼±Àº Á¦¿Ü.
+			// ì‚¬ì´í´ ìƒì„±ë˜ëŠ” ê²½ìš° ì œì™¸
 			if (find(edge.start) != find(edge.end)) {
 				ans += edge.weight;
 				union(edge.start, edge.end);
