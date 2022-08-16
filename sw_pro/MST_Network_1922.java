@@ -28,7 +28,7 @@ class Edge implements Comparable<Edge> {
 
 }
 
-public class NetworkMST_1922 {
+public class MST_Network_1922 {
 	static int[] parent;
 	static ArrayList<Edge> edgeList;
 
