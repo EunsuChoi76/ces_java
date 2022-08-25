@@ -33,9 +33,8 @@ public class MST_Network_1922 {
 	static ArrayList<Edge> edgeList;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		System.setIn(new FileInputStream("D:\\git\\JavaWorkspace\\input\\NetworkMST_1922.txt"));
+		System.setIn(new FileInputStream("D:\\git\\javaWorkspace\\ces\\src\\ces_java\\sw_pro\\input\\NetworkMST_1922.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringTokenizer st;
 
 		int N = Integer.parseInt(br.readLine());
@@ -69,9 +68,7 @@ public class MST_Network_1922 {
 			}
 		}
 
-		bw.write(ans + "\n");
-		bw.flush();
-		bw.close();
+		System.out.print(ans);
 		br.close();
 	}
 
