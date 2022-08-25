@@ -69,6 +69,7 @@ public class MST_Network_1922 {
 		}
 
 		System.out.print(ans);
+
 		br.close();
 	}
 
